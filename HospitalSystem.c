@@ -9,3 +9,10 @@ char login(char* username ,char*password)
             return 1;
         }
 }
+
+void printLine()
+{
+    for(int i = 0; i < 80; i++)
+        printf("-");
+        printf("\n");
+}
